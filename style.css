@@ -1,0 +1,73 @@
+body{
+background-color: cadetblue;
+
+
+
+}
+.parent{
+display: flex;
+flex-direction: row;
+gap: 20px;
+flex-shrink: 0;
+background-color: cadetblue;
+justify-content: space-between;
+
+
+}
+p{
+outline: 1px solid black;
+
+}
+
+.greeting {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+    background-color: rgb(154, 80, 80);
+    text-align: center;
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    background-color: rgb(114, 80, 145);
+    text-align: center;
+}
+
+.thanks {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    background-color: beige;
+    text-align: center;
+}
+
+
+
+
+.container1{
+
+display: flex;
+justify-content: center;
+
+}
+.button {
+    outline: 1px solid black;
+    font-size: 50px;
+    font-family: cursive;
+    width: fit-content;
+    padding: 50px;
+}
+.container2{
+display: flex;
+justify-content:start;
+flex-direction: row;
+align-items: flex-end;
+outline: 2px solid red;
+margin: 20px auto;
+height: 200px;
+
+}
+.container2 p{
+    width: fit-content;
+
+
+}
