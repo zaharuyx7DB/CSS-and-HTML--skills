@@ -1,0 +1,28 @@
+div{
+display: flex;
+text-align: center;
+gap:50px;
+height: 300px;
+outline: 1px solid red;
+margin: 0px 100px;
+}
+div p{
+background-color: blueviolet;
+padding:50px;
+border-radius: 20%;
+padding-top: 100px;
+
+flex-basis: 0;
+flex-grow: 1;
+}
+
+.specialchild{
+flex-shrink: 0;
+flex-grow: 2;
+
+} 
+.child{
+
+flex-shrink: 0;
+flex-grow: 1;
+}
